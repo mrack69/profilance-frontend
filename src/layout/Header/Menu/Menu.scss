@@ -1,0 +1,17 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+
+  &-Link {
+    color: #4f4f44;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

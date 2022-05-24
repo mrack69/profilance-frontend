@@ -1,0 +1,9 @@
+.NewsCard {
+  display: flex;
+  flex-direction: column;
+
+  &-Date {
+    color: #777777;
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,24 @@
+.CreateNewsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &-Label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &-Input {
+    width: 100%;
+  }
+
+  &-Textarea {
+    width: 100%;
+    resize: vertical;
+  }
+
+  &-Btn {
+    width: 100%;
+  }
+}

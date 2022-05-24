@@ -1,0 +1,21 @@
+.Button {
+  border: none;
+  border-radius: 12px;
+  padding: 16px 24px;
+  background-color: orange;
+  font-size: 18px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(255, 136, 0);
+  }
+
+  &:active {
+    background-color: rgb(255, 153, 0);
+  }
+
+  &:disabled {
+    background-color: rgb(221, 221, 221);
+    cursor: default;
+  }
+}

@@ -1,0 +1,41 @@
+.CardMenu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+
+  &-Btn {
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+  }
+
+  &-Icon {
+    color: white;
+    width: 20px;
+    height: 20px;
+  }
+
+  &-ApproveBtn {
+    background: rgb(32, 184, 2);
+
+    &:hover {
+      background: rgb(41, 235, 2);
+    }
+
+    &:active {
+      background: rgb(29, 173, 0);
+    }
+  }
+
+  &-DeleteBtn {
+    background-color: rgb(214, 22, 22);
+
+    &:hover {
+      background: rgb(247, 2, 2);
+    }
+
+    &:active {
+      background: rgb(155, 3, 3);
+    }
+  }
+}

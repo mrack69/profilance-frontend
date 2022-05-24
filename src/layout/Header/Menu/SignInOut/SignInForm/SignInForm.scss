@@ -1,0 +1,23 @@
+.SignInForm {
+  box-sizing: border-box;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &-Title {
+    text-transform: uppercase;
+    align-self: center;
+  }
+
+  &-Error {
+    color: red;
+    text-align: center;
+  }
+
+  &-Label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

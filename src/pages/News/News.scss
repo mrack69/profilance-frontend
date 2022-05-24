@@ -1,0 +1,11 @@
+.News {
+  &-AddBtn {
+    width: 100%;
+  }
+
+  &-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
